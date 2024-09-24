@@ -11,5 +11,5 @@ class Students(models.Model):
     teacher = models.ForeignKey(Teachers, on_delete=models.CASCADE) # Relasi ke tabel Teachers
     test = models.SlugField()
 
-def __str__(self):
-    return self.name
+    def __str__(self):
+        return self.name

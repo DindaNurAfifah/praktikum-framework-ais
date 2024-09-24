@@ -12,5 +12,5 @@ class Users(models.Model):
     password = models.CharField(max_length=128) # Panjang standar untuk password hash di Django
     role = models.IntegerField(choices=ROLE_CHOICES) # 1 = Student, 2 = Teacher
 
-def __str__(self):
-    return self.username
+    def __str__(self):
+        return self.username
