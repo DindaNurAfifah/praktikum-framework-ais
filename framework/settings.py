@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ais',
     'django_bootstrap5',
-    'django_seed' # Seeder
+    'django_seed', # Seeder
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
